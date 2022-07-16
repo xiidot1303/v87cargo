@@ -29,5 +29,5 @@ urlpatterns = [
     path('home', home, name='home'),
     path('about', about, name='about'),
     path('service', service, name='service'),
-    path('contact', contact, name='contact')
+    path('contact', contact, name='contact'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
