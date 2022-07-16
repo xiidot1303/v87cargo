@@ -1,0 +1,215 @@
+{% extends 'layout/basic.html' %}
+{% load static %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block main %}
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid mb-5">
+        <div class="container text-center py-5">
+            <h1 class="text-primary mb-4">Безопасно и быстрее</h1>
+            <h1 class="text-white display-3 mb-5">Логистические Услуги</h1>
+            <div class="mx-auto" style="width: 100%; max-width: 600px;">
+                <div class="input-group">
+                    <!-- <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Идентификатор отслеживания">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary px-3">Отслеживание и трассировка</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                    <div class="bg-primary text-dark text-center p-4">
+                        <h3 class="m-0">Более 10 Лет Опыта Работы</h3>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h6 class="text-primary text-uppercase font-weight-bold">О компании</h6>
+                    <h1 class="mb-4">Надежный и быстрый Поставщик Логистических Услуг</h1>
+                    <p class="mb-4">SHUNLIDA LLC. (V87Cargo) - Мы Китайская компания, базирауемся в г. Гуанчжоу. Отправляем по всей России и всему СНГ. Уже более 10 лет занимаемся отправками грузов в РФ и СНГ, также предоставляем услуги посредника в закупках у Китайских поставщиков. У нас есть большая база поставщиков одежды женской и мужской, сумок и аксессуаров (качество AAA+).</p>
+                    <!-- <div class="d-flex align-items-center pt-2">
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-bold m-0 ml-4">Play Воспроизведение видео</h5>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Video Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+      <!--  Quote Request Start -->
+      <div class="container-fluid bg-secondary my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 py-5 py-lg-0">
+                    <h6 class="text-primary text-uppercase font-weight-bold">О РАБОТЕ</h6>
+                    <h1 class="mb-4">О НАШЕЙ РАБОТЕ</h1>
+                    <p class="mb-4">Предлагаемая продукция или услуги
+                        Производители предлагаемой продукции: Whole China<br><br>
+                        
+                        Мы предлагаем услуги отправки товаров из Китая (г. Гуанчжоу) в РФ и СНГ.<br><br>
+                        
+                        Имеется большая база поставщиков одежды женской и мужской (люкс, тренд), сумок (люкс, тренд) и аксессуаров (вся продукция качество уровня ААА+)<br><br>
+                        </p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h1 class="text-primary mb-2" data-toggle="counter-up">225</h1>
+                            <h6 class="font-weight-bold mb-4">Квалифицированные эксперты</h6>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="text-primary mb-2" data-toggle="counter-up">1050</h1>
+                            <h6 class="font-weight-bold mb-4">Счастливые клиенты</h6>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="text-primary mb-2" data-toggle="counter-up">2500</h1>
+                            <h6 class="font-weight-bold mb-4">Полные проекты</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-primary py-5 px-4 px-sm-5">
+                        <form class="py-5">
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0 p-4" placeholder="Ваше имя" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0 p-4" placeholder="Ваш адрес электронной почты" required="required" />
+                            </div>
+                            <!-- <div class="form-group">
+                                <select class="custom-select border-0 px-4" style="height: 47px;">
+                                    <option selected>Выберите услугу</option>
+                                    <option value="1">Service 1</option>
+                                    <option value="2">Service 1</option>
+                                    <option value="3">Service 1</option>
+                                </select>
+                            </div> -->
+                            <div>
+                                <button class="btn btn-dark btn-block border-0 py-3" type="submit">ОТПРАВИТЬ</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote Request Start -->
+
+
+
+    <!-- Features Start -->
+    <div class="container-fluid bg-secondary my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                </div>
+                <div class="col-lg-7 py-5 py-lg-0">
+                    <h6 class="text-primary text-uppercase font-weight-bold">Почему Выбрали Именно Нас</h6>
+                    <h1 class="mb-4">Более быстрые, Безопасные и надежные Логистические услуги</h1>
+                    <p class="mb-4">Работая с нами вы получаете доступ к прямым поставщикам из Китая. Мы говорим на Китайском языке, поэтому можем предложить лучшие условия для сотрудничества с Китайской стороной.<br><br></p>
+                    <ul class="list-inline">
+                        <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Лучший В Отрасли</h6>
+                        <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>экстренные службы</h6></li>
+                        <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>24/7 служба поддержки клиентов</h6></li>
+                    </ul>
+                    <!-- <a href="" class="btn btn-primary mt-3 py-2 px-4">учить больше</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+
+   
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <!-- <h6 class="text-primary text-uppercase font-weight-bold">Свидетельство</h6>
+                <h1 class="mb-4"> </h1> -->
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="position-relative bg-secondary p-4">
+                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
+                    <!-- <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;" alt="">
+                        <div class="ml-3">
+                            <h6 class="font-weight-semi-bold m-0">Имя клиента</h6>
+                            <small>- Profession</small>
+                        </div>
+                    </div> -->
+                    <p class="m-0">Быстро и четко выполняем поставленные заказчиками цели</p>
+                </div>
+                <div class="position-relative bg-secondary p-4">
+                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
+                    <!-- <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;" alt="">
+                        <div class="ml-3">
+                            <h6 class="font-weight-semi-bold m-0">Имя клиента</h6>
+                            <small>- Profession</small>
+                        </div>
+                    </div> -->
+                    <p class="m-0">Наша миссия - надежная доставка товаров из Китая в Россию, Казахстан, Беларусь</p>
+                </div>
+                <div class="position-relative bg-secondary p-4">
+                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
+                    <!-- <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;" alt="">
+                        <div class="ml-3">
+                            <h6 class="font-weight-semi-bold m-0">Имя клиента</h6>
+                            <small>- Profession</small>
+                        </div>
+                    </div> -->
+                    <p class="m-0">Работая с нами вы получаете в свое распоряжение следующие услуги</p>
+                </div>
+                <div class="position-relative bg-secondary p-4">
+                    <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
+                    <!-- <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid rounded-circle" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;" alt="">
+                        <div class="ml-3">
+                            <h6 class="font-weight-semi-bold m-0">Имя клиента</h6>
+                            <small>- Profession</small>
+                        </div>
+                    </div> -->
+                    <p class="m-0">Свяжитесь с нами удобным вам способом. Для того чтобы мы быстро рассчитали стоимость вашего заказа укажите тип, вес, габариты вашего груза</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+{% endblock %}
